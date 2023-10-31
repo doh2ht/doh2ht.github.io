@@ -2,7 +2,7 @@ const path = document.getElementById('motion-path');
 const image = document.getElementById('animated-image');
 const circles = document.querySelectorAll(".cls-1");
 const cls2Elements = document.querySelectorAll(".cls-2");
-const circleInterval = 73846 / 120; // 속도
+const circleInterval = 73846 / 12; // 속도
 
 function updateWormPosition(index) {
     if (index < circles.length) {
